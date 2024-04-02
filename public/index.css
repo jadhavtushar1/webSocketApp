@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
+body{
+    font-family: "Bruno Ace SC", sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #438fd1;
+    overflow: auto;
+}
+p{
+    color: red;
+}
+.center-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.phone-parent{
+    width: 90vw;
+
+}
+header{
+    height: 8vh;
+    background-color: #a1cff7;
+    font-weight: 800;
+    font-size: 20px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.message-box{
+background-color: #4283bd;
+padding: 20px;
+height: 75vh;
+position: relative;
+display: flex;
+gap: 20px;
+flex-direction: column;
+overflow: auto;
+}
+.message-text-box{
+    background-color: #456a8a;
+    display: flex;
+    height: 8vh;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+
+}
+.input_box {
+    border: 0px !important;
+    border-radius:15px !important;
+    height: 6vh;
+    margin: auto;
+    margin-left: 10px;
+    background-color: #6190b0 !important;
+    color: azure !important;
+}
+p{
+    color: azure;
+}
+.head-input{
+    margin: 0px;
+    margin-left:20px ;
+    text-align: center;
+}
+
+.sent-msg{
+    background-color: #27353d;
+    width: fit-content;
+    padding: 10px;
+    border: 3px solid #728ea6;
+    border-radius: 20px;
+    border-bottom-right-radius: 0px;
+    align-self: flex-end;
+    max-width: 60vw;
+    
+    
+}
+.received-msg{
+    background-color: #073b59;
+    padding: 10px;
+    
+    width: fit-content;
+    max-width: 60vw;
+    border: 3px solid #728ea6;
+    border-radius: 20px;
+    border-bottom-left-radius: 0px;
+    align-self: flex start;
+    
+}
+.msg-metadata{
+    font-size: 10px;
+}
+
+
+.status-box{
+   
+    display: flex;
+    justify-content: center;
+   height: 20px;
+   border-bottom-left-radius: 20px;
+}
+.send-icon{
+    width: 40px;
+    height: 28px;
+}
+.user-count{
+    background-color: #438fd1;
+
+}
+.send-btn{
+    height: 6vh;
+    margin: auto;
+    border-radius: 15px !important;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}

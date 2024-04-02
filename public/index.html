@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="./index.css" rel="stylesheet"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body >
+
+<div class="phone-parent">
+    <header class="center-items"><input type="text" class="input_box head-input" value="unidentified user" id="user_name"/></header>
+    <div class="message-box" id="message_parents">
+        <!-- <div class="sent-msg " id="sent_smessage">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, obcaecati!</p>
+            <p class="msg-metadata">Lorem ipsum dolor sit amet. 22-20-2020 11:30</p>
+        </div>
+        <div class="received-msg" id="received_message">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, accusamus?</p>
+            <p class="msg-metadata">Lorem ipsum dolor sit amet. 22-20-2020 11:30</p>
+        </div> -->
+        
+        <!-- <div class="status-box"> <p class="status">user is typing ...</p></div> -->
+    </div>
+    <form class="message-text-box" id="message_form">
+        <input type="text"  class="form-control input_box" aria-describedby="passwordHelpBlock" id = "message_text_box">
+        <button class="btn btn-primary send-btn" type="submit">Send</button>
+        
+
+    </form>
+    <p class="user-count center-items" id="user_id">user 1</p>
+</div>
+<script src="/socket.io/socket.io.js"></script>
+<script src="main.js"></script>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</html>
